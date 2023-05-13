@@ -7,22 +7,22 @@
 */
 
 import './style.css';
-import { Map, View } from 'ol';
-import TileLayer from 'ol/layer/Tile';
-import Stamen from 'ol/source/Stamen';
-import { fromLonLat } from 'ol/proj';
+import { Map, View } from './ol';
+import TileLayer from './ol/layer/Tile';
+import Stamen from './ol/source/Stamen';
+import { fromLonLat } from './ol/proj';
 
 //add mouse control modules
-import MousePosition from 'ol/control/MousePosition.js';
-import { createStringXY } from 'ol/coordinate.js';
+import MousePosition from './ol/control/MousePosition.js';
+import { createStringXY } from './ol/coordinate.js';
 
 //add modules for geoJSON files
-import VectorLayer from 'ol/layer/Vector';
-import GeoJSON from 'ol/format/GeoJSON';
-import { Vector as vectorSource } from 'ol/source';
+import VectorLayer from './ol/layer/Vector';
+import GeoJSON from './ol/format/GeoJSON';
+import { Vector as vectorSource } from './ol/source';
 
 // add modules for styling points, lines, and polygons
-import { Style, Icon, Stroke, Fill } from 'ol/style';
+import { Style, Icon, Stroke, Fill } from './ol/style';
 
 // global scope variables
 var mainMap;
