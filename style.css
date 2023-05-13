@@ -1,0 +1,93 @@
+/* <!--Program: style.css
+    Programmer: Olivia Escobar
+    Date: March 25 2023
+    Purpose: css for index.html  --> */
+
+@import "node_modules/ol/ol.css";
+
+
+h1{
+  display:flex;
+  align-items:center;
+}
+
+#header {
+  display:flex;
+  align-items:center;
+  padding: 10px;
+  height:7%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: darkgreen
+}
+
+html,
+body {
+  position: fixed;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: beige
+}
+
+
+#longlatlabel {
+  align-items:center;
+}
+
+#mapDiv {
+  position: relative;
+  height: 80%;
+  width: 100%;
+}
+
+#mapOptions {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 200px;
+  height: 250px;
+  z-index: 1;
+  background-color: beige;
+  outline-style: solid;
+  outline-width: 1px;
+  padding:10px;
+}
+
+#myMousePosition {
+  position: relative;
+  height: 10%;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.ol-mouse-position{
+  position: absolute;
+  height: 100%;
+  width:100vw;
+  text-align: center;
+  padding-top: 5px;
+  margin:0px;
+  left:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#COGS {
+  height: 8%;
+  width: 15%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 5px;
+}
